@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-:root{
+
+:root {
     background: yellow;
     background-image: url('/images/tennis.jpg');
     background-size: contain;
@@ -12,14 +13,16 @@ h1 {
     font-size: 3em;
     margin: 0;
 }
-h1, p{
+
+h1,
+p {
     text-align: center;
     width: 50vw;
     margin: 0 auto;
     padding-bottom: 7px;
 }
 
-p{
+p {
     font-family: 'Roboto Mono', monospace;
     font-weight: 900;
 }
@@ -29,7 +32,7 @@ p{
     text-align: center;
 }
 
-canvas{
+canvas {
     display: inline;
     /* border: 10px solid black; */
     border-radius: 15px;
@@ -48,7 +51,7 @@ canvas{
     display: none;
 }
 
-.about{
+.about {
     background: black;
     color: lime;
     width: 50vw;
@@ -71,6 +74,6 @@ footer {
     text-align: center;
 }
 
-footer a{
+footer a {
     color: lime;
 }
